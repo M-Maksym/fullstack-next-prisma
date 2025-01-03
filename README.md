@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Fullstack Text Management Application
+
+This is a fullstack application that enables users to add, view, and delete text entries. It is built using modern web development technologies.
+
+## Tech Stack
+
+- **Frontend:** [Next.js](https://nextjs.org/)
+- **Backend:** [Prisma](https://www.prisma.io/) ORM
+- **Database:** [PostgreSQL](https://www.postgresql.org/)
+- **Deployment:** Database hosted on [Vercel](https://vercel.com/)
+
+## Features
+
+- **Add Text:** Users can add new text entries.
+- **View Text:** Users can view all text entries.
+- **Delete Text:** Users can delete existing text entries.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js installed on your machine.
+- Access to the `.env` file containing necessary environment variables.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Navigate to the project directory:
+   ```bash
+   cd your-repo-name
+   ```
 
-## Learn More
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Obtain the `.env` file from the project administrator and place it in the root of the project.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Running the Application
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-## Deploy on Vercel
+2. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The application is designed to be deployed on Vercel. For detailed instructions, refer to the [Vercel Deployment Documentation](https://vercel.com/docs).
+
+## Database Setup
+
+The application uses PostgreSQL as its database, managed with Prisma. Ensure that the database URL is correctly set in the `.env` file.
+
+## Environment Variables
+
+The following environment variables are required:
+
+- `DATABASE_URL`: Connection string for the PostgreSQL database.
+
+Ensure these are correctly set in the `.env` file before running the application.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
