@@ -21,17 +21,24 @@ This is a fullstack application that enables users to add, view, and delete text
 
 - Node.js installed on your machine.
 - Access to the `.env` file containing necessary environment variables.
+  
+### Screenshots
+
+
+<img width="840" alt="Знімок екрана 2025-01-03 о 21 01 55" src="https://github.com/user-attachments/assets/acd303b2-d789-48f7-9387-cf260d78f2b5" />
+<img width="664" alt="Знімок екрана 2025-01-03 о 21 02 12" src="https://github.com/user-attachments/assets/ab41a960-1b2e-4231-b53f-55bf243ce004" />
+<img width="1728" alt="Знімок екрана 2025-01-03 о 21 03 00" src="https://github.com/user-attachments/assets/fdc54eab-f7be-4e2f-803f-eb9c6422694d" />
 
 ### Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/M-Maksym/fullstack-next-prisma.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd your-repo-name
+   cd fullstack-next-prisma
    ```
 
 3. Install dependencies:
@@ -60,12 +67,9 @@ The application uses PostgreSQL as its database, managed with Prisma. Ensure tha
 
 ## Environment Variables
 
-The following environment variables are required:
-
-- `DATABASE_URL`: Connection string for the PostgreSQL database.
 
 Ensure these are correctly set in the `.env` file before running the application.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
